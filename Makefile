@@ -1,5 +1,5 @@
 CXXFLAGS = -std=c++17 -municode -mwindows
-OBJ := main.o Object.o
+OBJ := main.o Object.o Game.o
 
 juego.exe: $(OBJ)
 	$(CXX) $(CXXFLAGS) $^ -o $@
